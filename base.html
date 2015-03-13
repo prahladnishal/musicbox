@@ -1,0 +1,42 @@
+<html>
+<script type="text/javascript" src="/js/jquery-1.4.2.js"/>
+<script type="text/javascript" src="/js/base.js"></script>
+<style>
+#existing_files {
+	float:left;
+}
+#vpl {
+	float: right;
+}
+a.selected {
+	background-color: grey;
+}
+</style>
+<div>
+Welcome DarkMusic!!
+</div>
+<div>
+<span> Enter URL </span>
+<input type="text" name="url" id="url-txtbox" />
+<input type="text" name="start-index" id="start-index" value="1" />
+<input type="button" name="submit" id="submit-btn" value="submit" />
+
+<span id="response">Current Downloading </span>
+</div>
+<div>
+<input type="button" name="refresh" id="refresh-btn" value="Refresh" /> <input type="checkbox" id="shuffle" /> <span>Shuffle</span> 
+</div>
+<div>
+<span> Playing </span> <span id="current"/>
+</div>
+<div>
+	<div id="existing_files">
+
+	</div>
+	<div id="vpl">
+		<video id="videoplayer" width="400px"/>
+
+	</div>
+</div>
+
+</html>
