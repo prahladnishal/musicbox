@@ -4,6 +4,9 @@
 <style>
 #existing_files {
 	float:left;
+	width: 800px;
+	height: 500px;
+	overflow: scroll;
 }
 #vpl {
 	float: right;
@@ -16,15 +19,23 @@ a.selected {
 Welcome DarkMusic!!
 </div>
 <div>
-<span> Enter URL </span>
+<!-- <span> Enter URL </span>
 <input type="text" name="url" id="url-txtbox" />
 <input type="text" name="start-index" id="start-index" value="1" />
 <input type="button" name="submit" id="submit-btn" value="submit" />
 
 <span id="response">Current Downloading </span>
-</div>
+ --> 
+ </div>
 <div>
-<input type="button" name="refresh" id="refresh-btn" value="Refresh" /> <input type="checkbox" id="shuffle" /> <span>Shuffle</span> 
+<input type="button" name="refresh" id="refresh-btn" value="Refresh" /> 
+<!--<input type="button" name="delete-btn" id="delete-btn" value="Delete" /> -->
+<input type="button" name="recently-btn" id="recently-btn" value="Recently Played" />
+<input type="button" name="most-btn" id="most-btn" value="Most Played" />
+<input type="button" name="delete-btn" id="delete-btn" value="Delete" />
+<input type="checkbox" id="shuffle" /> 
+<span>Shuffle</span> 
+<!--<span>Delete</span>  -->
 </div>
 <div>
 <span> Playing </span> <span id="current"/>
